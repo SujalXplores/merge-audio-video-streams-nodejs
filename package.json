@@ -1,0 +1,21 @@
+{
+  "name": "merge-audio-video-streams",
+  "version": "1.0.0",
+  "description": "Merge video only and audio only streams during delivery to save storage for videos having audios in multiple languages",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Sujal Shah",
+  "license": "ISC",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "fluent-ffmpeg": "^2.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
